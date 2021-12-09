@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
 	<head>
 		<title>게시판</title>
 	</head>

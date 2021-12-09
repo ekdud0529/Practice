@@ -14,6 +14,7 @@ import kr.co.vo.BoardVO;
 @Controller
 @RequestMapping("/board/*")
 public class BoardController {
+	
 	private static final Logger logger = LoggerFactory.getLogger(BoardController.class);
 	
 	@Inject
