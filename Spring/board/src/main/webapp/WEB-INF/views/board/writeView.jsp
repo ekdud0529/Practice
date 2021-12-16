@@ -45,12 +45,12 @@
 			<hr />
 			
 			<section id="container">
-				<form role="form" method="post" action="/board/write">
+				<form name="writeForm" method="post" action="/board/write">
 					<table>
 						<tbody>
 							<tr>
 								<td>
-									<label for="title">제목</label><input type="text" id="title" name="title" class="chk" title="제목을 입력하세요." />
+									<label for="title">제목</label><input type="text" id="title" name="title" class="chk" title="제목을 입력하세요."/>
 								</td>
 							</tr>	
 							<tr>
@@ -64,7 +64,7 @@
 								</td>
 							<tr>
 								<td>						
-									<button type="submit">작성</button>
+									<button type="submit" class="write_btn">작성</button>
 								</td>
 							</tr>			
 						</tbody>			
